@@ -34,6 +34,12 @@ class Brew(dotbot.Plugin):
                 "stdout": False,
                 "force_intel": False,
             },
+            "tap": {
+                "stdin": True,
+                "stderr": True,
+                "stdout": True,
+                "force_intel": False,
+            },
             "brewfile": {
                 "stdin": True,
                 "stderr": True,
